@@ -30,8 +30,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
-        <Navbar />
+        <div style={{ display: 'flex', minHeight: '100vh' }}>
+          <Navbar />      {/* Sidebar Navbar */}
+          <main style={{ flex: 1, padding: '1rem' }}>
+            {children}    {/* Main Content Area */}
+          </main>
+        </div>
+
       </body>
     </html>
   );
