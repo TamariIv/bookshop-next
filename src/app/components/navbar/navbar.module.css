@@ -1,0 +1,29 @@
+.sidebar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    border-right: 1px solid gainsboro;
+    padding: 0px;
+}
+
+.item {
+    padding: 2rem 1rem;
+    width: 100%;
+}
+
+.item:hover {
+    background-color: aliceblue;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0px;
+
+}
