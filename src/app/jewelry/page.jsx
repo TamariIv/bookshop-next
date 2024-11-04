@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { useEffect, useState } from 'react';
-import Product from '../components/Product/Product';
+import Product from '../components/product/Product';
 import styles from './Jewelry.module.css';
 import { getProductsJewelry } from '../../services/service';
 
